@@ -1,0 +1,17 @@
+{
+  "name": "udir-moodle/availability_mobileapp",
+  "description": "Moodle Mobile app section and activity availability restrictions — Composer/Packagist mirror of the Moodle plugin availability_mobileapp, auto-updated from the Moodle plugins directory.",
+  "type": "moodle-availability",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://moodle.org/plugins/availability_mobileapp",
+  "require": {
+    "composer/installers": "~1.0 || ~2.0",
+    "moodle/moodle": "3.11.* || 4.0.* || 4.1.* || 4.2.* || 4.3.* || 4.4.* || 4.5.*"
+  },
+  "extra": {
+    "installer-name": "mobileapp",
+    "moodle-composer": {
+      "component": "availability_mobileapp"
+    }
+  }
+}
